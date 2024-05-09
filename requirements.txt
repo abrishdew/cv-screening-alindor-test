@@ -12,6 +12,7 @@ cryptography==42.0.7
 distro==1.9.0
 Flask==3.0.3
 frozenlist==1.4.1
+gunicorn==22.0.0
 h11==0.14.0
 httpcore==1.0.5
 httpx==0.27.0
@@ -22,6 +23,7 @@ lxml==5.2.1
 MarkupSafe==2.1.5
 multidict==6.0.5
 openai==0.28.0
+packaging==24.0
 pdfminer.six==20231228
 pdfplumber==0.11.0
 pillow==10.3.0
