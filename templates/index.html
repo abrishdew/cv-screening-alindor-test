@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <title>CV Upload</title>
+</head>
+<body>
+    
+    <script>
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+        }
+    </script>
+    
+    <h1>Upload your CV and Job Description</h1>
+    <form method="post" action="/upload" enctype="multipart/form-data" onsubmit="showLoading()">
+        <label for="cv">CV (required):</label>
+        <input type="file" id="cv" name="cv" required><br>
+        <label for="job_description">Job Description (required):</label>
+        <input type="file" id="job_description" name="job_description" required><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="loading" style="display: none;">Processing...</div>
+    
+</body>
+</html>
