@@ -5,7 +5,7 @@ This CV Screening Application is a web-based tool designed to assist in the auto
 
 ## Features
 - **CV Upload**: Users can upload CVs in PDF or DOCX format.
-- **Job Description Upload**: Users can upload job descriptions to which the CVs will be compared.
+- **Job Description Upload**: Users can upload job descriptions to which the CVs will be compared(also PDF or DOCX format).
 - **Scoring System**: The application provides a suitability score from 1 to 10.
 - **Explanation**: A brief explanation of the score based on the CV and job description analysis.
 
