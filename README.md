@@ -11,8 +11,7 @@ This CV Screening Application is a web-based tool designed to assist in the auto
 
 ## Technologies Used
 - Flask: For the backend server and API.
-- OpenAI's GPT-3: For processing and analyzing CVs.
-- React.js: For the frontend (optional, replace if different).
+- OpenAI's GPT-3.5-turbo: For processing and analyzing CVs.
 - Gunicorn: As the WSGI HTTP Server.
 - Render: Deployment platform.
 
